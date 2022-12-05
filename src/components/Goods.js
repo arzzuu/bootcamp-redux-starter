@@ -1,6 +1,7 @@
 import React, { PureComponent } from "react";
 import "../styles.css";
 import store from "../redux/reducers/store";
+
 import GoodsItem from './GoodsItem';
 
 class Goods extends PureComponent {
@@ -26,4 +27,5 @@ class Goods extends PureComponent {
     );
   }
 }
+
 export default Goods;
